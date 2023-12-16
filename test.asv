@@ -1,0 +1,11 @@
+[t, u] = ode45(@(u,t) Fun(u,t), [tBEG,tEND], u0 )
+
+function f_out = Fun( t, )
+
+    f1 = u0(2);
+
+    f2 = -sin(u0(1));
+
+    f_out = [ f1, f2 ]
+
+end
